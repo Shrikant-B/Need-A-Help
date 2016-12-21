@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textSrNum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textLocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textContactNo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnMakeCall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:textSize="15dp"
+        android:src="@drawable/phone"/>
+
+</LinearLayout>

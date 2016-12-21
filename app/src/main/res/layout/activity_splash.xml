@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen"
+    tools:context="com.shrikantbadwaik.needahelp.SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Need A Help!!!"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/textCopyRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="(C)2016 ShrikantBadwaik.Inc All Rights Reserved"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:textStyle="italic" />
+</RelativeLayout>

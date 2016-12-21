@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NeedAHelp</string>
+    <string name="title_activity_find_me">Find Me</string>
+    <string name="google_maps_key">AIzaSyASu5fI0rCLwt0-LIc-ISJiTJLcgUFsoAs</string>
+</resources>
